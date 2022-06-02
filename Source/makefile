@@ -1,0 +1,2 @@
+all:
+	gcc MCHE.c init.c bitboards.c board.c hashkeys.c data.c attack.c io.c movegen.c validate.c makemove.c perft.c search.c misc.c hashtable.c evaluate.c uci.c xboard.c see.c polykeys.c polybook.c -o MCHE -O2 -s
